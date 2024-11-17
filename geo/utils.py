@@ -5,5 +5,5 @@ def pythagoras(a, b):
     return c
 
 def circle(r):
-    area = 
+    area = math.pi * r**2
     return area
