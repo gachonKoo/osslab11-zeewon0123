@@ -1,7 +1,9 @@
-from geo.utils import circle_area
+import geo.utils as utils
 
-if __name__ == "__main__":
-    c = 5.0
-    area = circle_area(c)
-    print(f"c = {c}")
-    print(f"area = {area}")
+a, b = 3, 4
+c = 5.0
+print('c=',c)
+
+r = 10
+area = math.pi * r**2
+print('area=',area)
