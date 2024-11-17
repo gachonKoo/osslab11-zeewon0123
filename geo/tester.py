@@ -1,9 +1,9 @@
 import geo.utils as utils
 
 a, b = 3, 4
-c = 5.0
+c = utils.pythagoras(a, b)
 print('c=',c)
 
 r = 10
-area = math.pi * r**2
+area = utils.circle(r)
 print('area=',area)
