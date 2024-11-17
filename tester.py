@@ -1,9 +1,11 @@
-import math
+import geo.utils as utils
 
-# Example: Calculating circumference and area of a circle
-radius = 5.0
-circumference = 2 * math.pi * radius
-area = math.pi * radius**2
+# Calculate hypotenuse using Pythagoras function
+a, b = 3, 4
+c = utils.pythagoras(a, b)
+print(f"c = {c}")
 
-print(f"c = {circumference}")
+# Calculate the area of a circle using the circle function
+r = 10
+area = utils.circle(r)
 print(f"area = {area}")
