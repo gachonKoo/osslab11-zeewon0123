@@ -1,7 +1,9 @@
 import math
 
-def circle_area(radius):
-    """Calculate the area of a circle."""
-    if radius < 0:
-        raise ValueError("Radius must be non-negative")
-    return math.pi * radius ** 2
+def pythagoras(a, b):
+    c= math.sqrt(a**2+b**2)
+    return c
+
+def circle(r):
+    area = math.pi * r**2
+    return area
